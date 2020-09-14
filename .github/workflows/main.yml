@@ -10,3 +10,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+          
+      - name: NewFile
+        run: touch test.txt
