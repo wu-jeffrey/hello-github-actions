@@ -12,4 +12,4 @@ jobs:
           MY_NAME: "Mona"
           
       - name: NewFile
-        run: touch test.txt
+        run: echo "This is some text" > randomtext.txt
